@@ -6,7 +6,7 @@ mixer.init()  # mixer initialize
 
 pygame.font.init()
 
-pygame.display.set_caption("Space Wars")
+pygame.display.set_caption("Air Combat")
 
 # background
 
