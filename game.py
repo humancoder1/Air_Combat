@@ -11,17 +11,17 @@ pygame.display.set_caption("Space Wars")
 
 WIDTH, HEIGHT = 1100, 700
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))  
-bg_img = pygame.image.load("background.png")  
+bg_img = pygame.image.load("./Assets/Image_files/background.png")  
 bg_img = pygame.transform.scale(bg_img, (2000, 1000))
-mixer.music.load("background_music.mp3")
-mixer.music.play()
+# mixer.music.load("./Assets/Audio_files/background_music.mp3")
+# mixer.music.play()
 
 text_font1 = pygame.font.SysFont("imprintshadow", 30)
 text_font2 = pygame.font.SysFont("imprintshadow", 60, bold=True)
 
 
-JET1 = pygame.image.load("space_ship11.png")
-JET2 = pygame.image.load("space_ship22.png")  
+JET1 = pygame.image.load("./Assets/Image_files/space_ship11.png")
+JET2 = pygame.image.load("./Assets/Image_files/space_ship22.png")  
 
 FPS = 60
 
